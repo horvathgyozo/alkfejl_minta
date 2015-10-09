@@ -1,5 +1,41 @@
 # Tudnivalók a dokumentációról
 
+## Az 1. beadandó feladatról
+
+Első beadandóként egy kis webes alkalmazás elkészítése a cél szerveroldali technológiák segítségével. A feladatnak mininálisan tartalmaznia kell:
+
+- legalább két modellt, egy-sok kapcsolatban
+- legalább 1 űrlapot
+- legalább 1 listázó oldalt
+- legyen lehetőség új felvételére
+- legyen lehetőség meglévő szerkesztésére
+- legyen lehetőség meglévő törlésére
+- legyenek benne csak hitelesítés után elérhető funkciók
+- perzisztálás fájlba történjen
+- közzététel Herokun
+
+### Példa feladatok
+
+1. Receptek és hozzávalók
+2. Tantárgyak felvétele
+3. Raktár bevételezés
+4. Családi todo
+5. Családi büdzsé
+6. Névjegyek kezelése
+7. Munkaidő nyilvántartás
+
+## A feladat közzététele
+
+A feladatot a [Heroku platformon](https://www.heroku.com/) kell közzétenni. Először is regisztrálj a Heroku-n. A következő lépéseket Cloud9 parancssorában kell kiadni. Feltételezzük, hogy a kód már git-tel verziózva van. (Ha nincs, akkor `git init`, `git add .`, `git commit -m "Kezdet"`)
+
+1. `heroku create <alkalmazás neve> --region eu`
+2. `git push heroku master`
+
+Az alkalmazás a `<alkalmazás neve>.herokuapp.com` címen érhető el.
+
+Ha nem indulna, akkor a `heroku logs --tail` paranccsal meg lehet nézni a hibaüzeneteket.
+
+
 ## A dokumentáció elhelyezése
 
 ### Github
