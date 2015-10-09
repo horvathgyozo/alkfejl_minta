@@ -37,3 +37,82 @@ Az előző kódrészlet eredménye:
 
 ![Kép felirata](docs/images/database.png)
 
+
+## A dokumentáció szerkezete
+
+A dokumentáció felépítésével kapcsolatos elvárások alapvetően megfelelnek az előzménytárgyban megfogalmazott elvárásoknak, de ki is egészülnek a tárgy webes jellegének megfelelően. A következő segédanyagok használhatók ehhez:
+
+- [Az előzménytárgy dokumentációval kapcsolatos elvárásai](http://webprogramozas.inf.elte.hu/alkfejl/A_dokumentacio_felepitese.pdf)
+- [A gyakorlatokon tervezéssel kapcsolatban elhangzott diák](http://webprogramozas.inf.elte.hu/alkfejl/03.html#/4)
+- [Webes alkalmazások tervezése, tervezési eszközök](http://ade.web.elte.hu/wabp/lecke2_lap1.html)
+- [További hallgatói jegyzetek a különböző UML diagramokkal kapcsolatban](http://webprogramozas.inf.elte.hu/alkfejl/dok_uml_hallgatoi_anyagok.zip)
+
+A diagramok elkészítéséhez bármilyen eszköz használható. Néhány ajánlat:
+
+- [nomnoml](http://nomnoml.com/): sokféle diagramtípus
+- [js-sequence-diagrams](https://bramp.github.io/js-sequence-diagrams/): szekvenciadiagramok
+- [Lumzy](http://lumzy.com/app/): webes mockupkészítő eszköz
+- [LayoutIt](http://www.layoutit.com/build): designtervekhez
+- [Bootswatch](http://bootswatch.com/): designtervekhez
+
+A dokumentáció a következő részeket tartalmazza:
+
+- Követelményanalízis
+- Tervezés
+- Implementáció
+- Tesztelés
+- Felhasználói dokumentáció
+
+
+### Követelményanalízis
+
+A követelmény feltárás során felmérik és összegyűjtik a megrendelt szoftverrel szemben támasztott felhasználói követelményeket, elemzik az alkalmazási szakterületet. Részei:
+
+1. Követelmények összegyűjtése: a nyújtandó szolgáltatások ismertetése rövid, szöveges leírásként, sokszor felsorolásként jelenik meg.
+    a. Funkcionális elvárások
+    b. Nem funkcionális követelmények
+2. Szakterületi fogalomjegyzék: ha vannak speciális fogalmak, akkor ezeket itt lehet összegyűjteni és magyarázni.
+3. Használatieset-modell
+    a. Szerepkörök: lista rövid leírással
+    b. Használati eset diagramok: a szerepkörök és az elérhető funkiók kapcsolatát jelenítik meg, ha kell, akkor esetenként rövid magyarázó szöveggel.
+    c. Folyamatok pontos menete: legalább 1 folyamat kifejtése.
+
+
+### Tervezés
+
+1. Architektúra terv
+    a. komponensdiagram
+    b. Oldaltérkép
+    c. Végpontok
+2. Felhasználóifelület-modell
+    a. Oldalvázlatok
+    b. Designterv (nem kell, elég a végső megvalósítás kinézete)
+3. Osztálymodell
+    a. Adatmodell
+    b. Adatbázisterv
+    c. Állapotdiagram
+4. Dinamikus működés
+    a. Szekvenciadiagram
+
+### Implementáció
+
+1. Fejlesztői környezet bemutatása
+2. Könyvtárstruktúrában lévő mappák funkiójának bemutatása
+
+### Tesztelés
+
+Automatikus tesztek szükségesek. Nem kell teljeskörű tesztelés, a hallgató mutassa meg, hogy képes ilyen tesztek írására.
+
+1. Tesztelési környezet bemutatása
+2. Egységtesztek: legalább 1 adatmodell tesztelése
+3. Funkcionális felületi tesztek: legalább 1 folyamat tesztelése
+    a. VAGY: Selenium IDE használatával
+    b. VAGY: zombie.js használatával
+4. Tesztesetek felsorolása: milyen eseteket próbált végig a hallgató
+
+### Felhasználói dokumentáció
+
+1. A futtatáshoz ajánlott hardver-, szoftver konfiguráció
+2. Telepítés lépései: hogyan kerül a Githubról a célgépre a program
+3. A program használata
+
