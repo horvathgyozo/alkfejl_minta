@@ -8,8 +8,8 @@ A beadandót egy Github kódtárban (repository) kell tárolni. Ennek lépései:
 
 1. Új kódtár létrehozása
 2. Kódtár klónozása
-	a. Helyi munka esetén: `git clone https://...`
-	b. Cloud9 esetén: új workspace létrehozásakor meg lehet adni a kódtár elérhetőségét
+    1. Helyi munka esetén: `git clone https://...`
+    2. Cloud9 esetén: új workspace létrehozásakor meg lehet adni a kódtár elérhetőségét
 3. Kód írása
 4. Változások stage-elése: `git add .`
 5. Változások mentése: `git commit`
@@ -69,30 +69,30 @@ A dokumentáció a következő részeket tartalmazza:
 A követelmény feltárás során felmérik és összegyűjtik a megrendelt szoftverrel szemben támasztott felhasználói követelményeket, elemzik az alkalmazási szakterületet. Részei:
 
 1. Követelmények összegyűjtése: a nyújtandó szolgáltatások ismertetése rövid, szöveges leírásként, sokszor felsorolásként jelenik meg.
-	a. Funkcionális elvárások
-	b. Nem funkcionális követelmények
+    1. Funkcionális elvárások
+    2. Nem funkcionális követelmények
 2. Szakterületi fogalomjegyzék: ha vannak speciális fogalmak, akkor ezeket itt lehet összegyűjteni és magyarázni.
 3. Használatieset-modell
-	a. Szerepkörök: lista rövid leírással
-	b. Használati eset diagramok: a szerepkörök és az elérhető funkiók kapcsolatát jelenítik meg, ha kell, akkor esetenként rövid magyarázó szöveggel.
-	c. Folyamatok pontos menete: legalább 1 folyamat kifejtése.
+    1. Szerepkörök: lista rövid leírással
+    2. Használati eset diagramok: a szerepkörök és az elérhető funkiók kapcsolatát jelenítik meg, ha kell, akkor esetenként rövid magyarázó szöveggel.
+    3. Folyamatok pontos menete: legalább 1 folyamat kifejtése.
 
 
 ### Tervezés
 
 1. Architektúra terv
-	a. komponensdiagram
-	b. Oldaltérkép
-	c. Végpontok
+    1. komponensdiagram
+    2. Oldaltérkép
+    3. Végpontok
 2. Felhasználóifelület-modell
-	a. Oldalvázlatok
-	b. Designterv (nem kell, elég a végső megvalósítás kinézete)
+    1. Oldalvázlatok
+    2. Designterv (nem kell, elég a végső megvalósítás kinézete)
 3. Osztálymodell
-	a. Adatmodell
-	b. Adatbázisterv
-	c. Állapotdiagram
+    1. Adatmodell
+    2. Adatbázisterv
+    3. Állapotdiagram
 4. Dinamikus működés
-	a. Szekvenciadiagram
+    1. Szekvenciadiagram
 
 ### Implementáció
 
@@ -106,8 +106,8 @@ Automatikus tesztek szükségesek. Nem kell teljeskörű tesztelés, a hallgató
 1. Tesztelési környezet bemutatása
 2. Egységtesztek: legalább 1 adatmodell tesztelése
 3. Funkcionális felületi tesztek: legalább 1 folyamat tesztelése
-	a. VAGY: Selenium IDE használatával
-	b. VAGY: zombie.js használatával
+    1. VAGY: Selenium IDE használatával
+    2. VAGY: zombie.js használatával
 4. Tesztesetek felsorolása: milyen eseteket próbált végig a hallgató
 
 ### Felhasználói dokumentáció
