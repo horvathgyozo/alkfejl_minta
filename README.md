@@ -1,28 +1,4 @@
-# Tudnivalók a dokumentációról
-
-## Az 1. beadandó feladatról
-
-Első beadandóként egy kis webes alkalmazás elkészítése a cél szerveroldali technológiák segítségével. A feladatnak mininálisan tartalmaznia kell:
-
-- legalább két modellt, egy-sok kapcsolatban
-- legalább 1 űrlapot
-- legalább 1 listázó oldalt
-- legyen lehetőség új felvételére
-- legyen lehetőség meglévő szerkesztésére
-- legyen lehetőség meglévő törlésére
-- legyenek benne csak hitelesítés után elérhető funkciók
-- perzisztálás fájlba történjen
-- közzététel Herokun
-
-### Példa feladatok
-
-1. Receptek és hozzávalók
-2. Tantárgyak felvétele
-3. Raktár bevételezés
-4. Családi todo
-5. Családi büdzsé
-6. Névjegyek kezelése
-7. Munkaidő nyilvántartás
+# Technikai tudnivalók az Alkalmazások fejlesztése tárgy beadandóiról
 
 ## A feladat közzététele
 
@@ -137,14 +113,7 @@ A követelmény feltárás során felmérik és összegyűjtik a megrendelt szof
 
 ### Tesztelés
 
-Automatikus tesztek szükségesek. Nem kell teljeskörű tesztelés, a hallgató mutassa meg, hogy képes ilyen tesztek írására.
-
-1. Tesztelési környezet bemutatása
-2. Egységtesztek: legalább 1 adatmodell tesztelése
-3. Funkcionális felületi tesztek: legalább 1 folyamat tesztelése
-    1. VAGY: Selenium IDE használatával
-    2. VAGY: zombie.js használatával
-4. Tesztesetek felsorolása: milyen eseteket próbált végig a hallgató
+Tesztesetek felsorolása: milyen eseteket próbált végig a hallgató.
 
 ### Felhasználói dokumentáció
 
