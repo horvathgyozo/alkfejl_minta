@@ -1,17 +1,5 @@
 # Technikai tudnivalók az Alkalmazások fejlesztése tárgy beadandóiról
 
-## A feladat közzététele
-
-A feladatot a [Heroku platformon](https://www.heroku.com/) kell közzétenni. Először is regisztrálj a Heroku-n. A következő lépéseket Cloud9 parancssorában kell kiadni. Feltételezzük, hogy a kód már git-tel verziózva van. (Ha nincs, akkor `git init`, `git add .`, `git commit -m "Kezdet"`)
-
-1. `heroku create <alkalmazás neve> --region eu`
-2. `git push heroku master`
-
-Az alkalmazás a `<alkalmazás neve>.herokuapp.com` címen érhető el.
-
-Ha nem indulna, akkor a `heroku logs --tail` paranccsal meg lehet nézni a hibaüzeneteket.
-
-
 ## A dokumentáció elhelyezése
 
 ### Github
@@ -93,7 +81,7 @@ A követelmény feltárás során felmérik és összegyűjtik a megrendelt szof
 ### Tervezés
 
 1. Architektúra terv
-    1. komponensdiagram
+    1. komponensdiagram (nem kell)
     2. Oldaltérkép
     3. Végpontok
 2. Felhasználóifelület-modell
@@ -104,20 +92,20 @@ A követelmény feltárás során felmérik és összegyűjtik a megrendelt szof
     2. Adatbázisterv
     3. Állapotdiagram
 4. Dinamikus működés
-    1. Szekvenciadiagram
+    1. Szekvenciadiagram (nem kell)
 
 ### Implementáció
 
 1. Fejlesztői környezet bemutatása
-2. Könyvtárstruktúrában lévő mappák funkiójának bemutatása
+2. Könyvtárstruktúrában lévő mappák funkciójának bemutatása
 
 ### Tesztelés
 
-Tesztesetek felsorolása: milyen eseteket próbált végig a hallgató.
+Tesztesetek felsorolása: milyen eseteket próbált végig a hallgató. (egyelőre nem kell)
 
 ### Felhasználói dokumentáció
 
 1. A futtatáshoz ajánlott hardver-, szoftver konfiguráció
-2. Telepítés lépései: hogyan kerül a Githubról a célgépre a program
+2. Telepítés lépései: hogyan kerül a Githubról a célgépre a program, hogyan kell elindítani
 3. A program használata
 
